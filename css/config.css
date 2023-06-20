@@ -1,0 +1,22 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html, 
+body {
+    font-size: 10px;
+    font-family: sans-serif;
+    font-family: 'Inter', sans-serif;
+}
+
+:root {
+    --color1: #FFFFFF;
+    --color2: #ececec;
+    --color3:#DBDBDB;
+    --color4: #24AFB5;
+    --color5: #24AFB533;
+    --color6: #24AFB5;
+    --color7: #F7F7F7;
+    --color8: #969696;
+}

@@ -1,0 +1,358 @@
+.enca {
+    background-color: var(--color2);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-family: 'Inter', sans-serif;
+    height: 5rem;
+}
+.nav_lista {
+    list-style-type: none;
+    gap: 1rem;
+    display: flex;
+}
+.nav_lista li a {
+    text-decoration: none;
+    color: black;
+    cursor: pointer;
+}
+.abrir_menu,
+.cerrar_menu {
+    display: none;
+}
+._cerrar_menu {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 5rem;
+    height: 2rem;
+    color: black;
+    border: none;
+    background-color: var(--color4);
+}
+@media screen and (max-width: 48rem) {
+    .abrir_menu,
+    .cerrar_menu {
+        display: block;
+        border: 0;
+        font-size: 1.2rem;
+    }
+    
+    .nav {
+        opacity: 0;
+        visibility: hidden;
+    }
+    .nav {
+        display: flex;
+        flex-direction: column;
+        align-items: end;
+        gap: 1rem;
+        background-color: var(--color4);
+        position: absolute;
+        top: 0;
+        bottom: 0;
+        padding: 2rem 1rem;
+        box-shadow: 0 0 0 100vmax rgba(0, 0, 0, 0.5);
+
+    }
+    .nav.visible {
+        opacity: 1;
+        visibility: visible;
+    }
+    .nav_lista {
+        flex-direction: column;
+        align-items: end;
+    }
+    .nav_lista li a {
+        border-color: black;
+    }
+}
+.div.cuerpo {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+}
+.space_1 {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    padding: 4rem 0rem 4rem 0rem;
+    justify-content: end;
+}
+.space_1 img {
+    width: 35rem;
+}
+.space_2 {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    padding: 0rem 1rem;
+}
+.texto_1 {
+    font-family: 'Inter', sans-serif;
+    font-size: 4rem;
+    font-weight: 700;
+}
+.texto_2 {
+    font-family: 'Inter', sans-serif;
+    font-size: 2.2rem;
+    font-weight: 400;
+}
+.space_3 {
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+    padding: 2rem 1rem 1rem;
+}
+.space_3 input {
+    width: 100%;
+    height: 5rem;
+    border-color: var(--color2);
+    border-radius: 0.6rem;
+}
+.email {
+    padding-left: 1rem;
+    font-size: 2.2rem;
+    font-weight: 400;
+}
+.pass {
+    padding-left: 1rem;
+    font-size: 2.2rem;
+    font-weight: 400;
+}
+.subs {
+    width: 13rem;
+    border-radius: 0.6rem;
+    border: none;
+    height: 5rem;
+    background-color: var(--color4);
+    color: var(--color1);
+    font-size: 2.2rem;
+    font-weight: 600;
+    cursor: pointer;
+}   
+.space_3 span {
+    font-size: 1.8rem;
+    font-weight: 400;
+}
+.espacios_1 {
+    height: 15rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.circulo {
+    display: flex;
+    width: 9rem;
+    height: 9rem;
+    background-color: var(--color2);
+    justify-content: center;
+    align-items: center;
+    border-radius: 100%;
+}
+.espacios_2 {
+    padding: 2rem;
+    font-family: 'Inter', sans-serif;
+    font-size: 2.2rem;
+    font-weight: 400;
+    display: flex;
+    text-align: center;
+}
+.infor {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    padding: 1rem;
+}
+.items_1 {
+    display: flex;
+    flex-direction: column;
+    padding: 2rem 1rem;
+    gap: 1rem;
+}
+.uno {
+    display: flex;
+    flex-direction: row;
+}
+.star {
+    width: 3.5rem;
+    height: 3.5rem;
+    background-color: var(--color2);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 100%; 
+}
+.one {
+    display: flex;
+    align-items: center;
+    padding-left: 2rem;
+    font-size: 2.7rem;
+    font-weight: 600;
+    font-family: 'Inter', sans-serif;
+}
+.items_1 span {
+    font-size: 2rem;
+    font-weight: 400;
+}
+.items_2 {
+    height: 20rem;
+    background-color: var(--color2);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.imgcon {
+    display: flex;
+    justify-content: center;
+    padding: 3rem 0rem 3rem 0rem;
+}
+.grid-container {
+    display: grid;
+    grid-template-columns: 2fr 2fr;
+    grid-template-rows: 1fr 1fr;
+    gap: 2rem;
+}
+.grid-item {
+    display: flex;
+    flex-direction: row;
+    padding: 2rem 0rem 0rem 2rem;
+}
+.encerrado {
+    width: 5rem;
+    height: 5rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.circle {
+    width: 4rem;
+    height: 4rem;
+    background-color: var(--color6);
+    border-radius: 100%;
+}
+.circle_1 {
+    width: 4rem;
+    height: 4rem;
+    background-color: var(--color5);
+    border-radius: 100%;
+}
+.circle_2 {
+    width: 4rem;
+    height: 4rem;
+    background-color: var(--color3);
+    border-radius: 100%;
+}
+.circle_3 {
+    width: 4rem;
+    height: 4rem;
+    background-color: var(--color7);
+    border-radius: 100%;
+}
+.porcentage {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    padding: 0rem 0rem 0rem 2rem;
+}
+.por {
+    font-size: 4rem;
+    font-weight: 700;
+}
+.user {
+    font-size: 1.7rem;
+    font-weight: 400;
+}
+.por {
+    font-size: 4rem;
+    font-weight: 700;
+}
+.down {
+    font-size: 1.7rem;
+    font-weight: 400;
+}
+.por {
+    font-size: 4rem;
+    font-weight: 700;
+}
+.ber {
+    font-size: 1.7rem;
+    font-weight: 400;
+}
+.por {
+    font-size: 4rem;
+    font-weight: 700;
+}
+.pro {
+    font-size: 1.7rem;
+    font-weight: 400;
+}
+.textos {
+    display: flex;
+    flex-direction: column;
+    padding: 1.5rem;
+    gap: 2rem;
+}
+.pri {
+    font-size: 2rem;
+    font-weight: 400;
+}
+.seg {
+    font-size: 1.8rem;
+    font-weight: 400;
+    color: var(--color8);
+}
+.tree {
+    display: flex;
+    flex-direction: column;
+}
+.let {
+    display: flex;
+    flex-direction: column;
+    gap: 1.7rem;
+    justify-content: center;
+    align-items: center;
+    padding: 2rem 0rem 2rem 0rem;
+}
+.hea {
+    font-size: 4rem;
+    font-weight: 700;
+}
+.ter {
+    font-size: 2.6rem;
+    font-weight: 400;
+    text-align: center;
+}
+.stars {
+    display: grid;
+    grid-template-columns: 2fr 2fr;
+    grid-template-rows: 1fr 1fr;
+    gap: 2rem;
+    padding-top: 2rem;
+}
+.cen_ {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 0.5rem;
+}
+.olu {
+    width: 7rem;
+    height: 7rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--color2);
+    border-radius: 100%;
+}
+.tu {
+    font-size: 2rem;
+    font-weight: 400;
+}
+.gmi {
+    display: flex;
+    justify-content: center;
+    padding: 7rem 0rem 0rem 0rem;
+}
